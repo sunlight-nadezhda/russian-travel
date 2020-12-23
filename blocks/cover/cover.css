@@ -1,7 +1,14 @@
 .cover {
   margin-top: 92px;
-  background: url(../../images/cover__background.jpg) no-repeat;
+  background-image: url(../../images/cover__background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   width: 100%;
   padding-bottom: 60%;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
