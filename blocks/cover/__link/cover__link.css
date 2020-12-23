@@ -1,9 +1,0 @@
-.cover__link {
-  margin: 0;
-  color: #fff;
-  text-decoration: none;
-}
-
-.cover__link:hover {
-  cursor: url(../../../images/cursor-pointer.png), pointer;
-}
