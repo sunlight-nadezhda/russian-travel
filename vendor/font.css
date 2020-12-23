@@ -7,3 +7,13 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  src: url(../fonts/inter-black-webfont.woff2) format('woff2'),
+       url(../fonts/inter-black-webfont.woff) format('woff'),
+       url(../fonts/inter-black-webfont.ttf) format('truetype'),
+       url(../fonts/inter-black-webfont.eot) format('eot');
+  font-family: 'Inter';
+  font-weight: 900;
+  font-style: normal;
+}
