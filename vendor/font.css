@@ -1,0 +1,9 @@
+@font-face {
+  src: url(../fonts/inter-regular-webfont.woff2) format('woff2'),
+       url(../fonts/inter-regular-webfont.woff) format('woff'),
+       url(../fonts/inter-regular-webfont.ttf) format('truetype'),
+       url(../fonts/inter-regular-webfont.eot) format('eot');
+  font-family: 'Inter';
+  font-weight: normal;
+  font-style: normal;
+}
