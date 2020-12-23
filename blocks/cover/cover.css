@@ -2,6 +2,6 @@
   margin-top: 92px;
   background: url(../../images/cover__background.jpg) no-repeat;
   width: 100%;
-  /* min-height: 58%; */
   padding-bottom: 60%;
+  position: relative;
 }
