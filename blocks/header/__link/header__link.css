@@ -7,3 +7,7 @@
   line-height: 28px;
   font-weight: normal;
 }
+
+.header__link:hover {
+  cursor: url(../../../images/cursor-pointer.png), pointer;
+}
