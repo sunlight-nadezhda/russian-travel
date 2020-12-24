@@ -2,8 +2,11 @@
   display: grid;
   gap: 48px 40px;
   grid-template-columns: 47% 1fr;
-  grid-template-areas:
+  /* grid-template-areas:
   "title website"
   "image paragraph_top"
-  "image paragraph_bottom";
+  "image paragraph_bottom"; */
+  grid-template-areas:
+  "title website"
+  "image paragraph";
 }
