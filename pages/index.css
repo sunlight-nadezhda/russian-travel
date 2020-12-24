@@ -24,6 +24,9 @@
 @import url(../blocks/intro/__list-number/intro__list-number.css);
 @import url(../blocks/intro/__list-number/_select/intro__list-number_select_not-bold.css);
 
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__item/photo-grid__item.css);
+
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__overlay/cover__overlay.css);
 @import url(../blocks/cover/__lead-centered/cover__lead-centered.css);
