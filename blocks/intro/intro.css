@@ -2,3 +2,11 @@
   margin-top: 92px;
   width: 70%;
 }
+
+@media (max-width: 768px) {
+  .intro {
+    width: 94%;
+    margin: 0 auto;
+    margin-top: 88px;
+  }
+}
