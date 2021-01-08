@@ -1,8 +1,10 @@
 .link {
   color: #fff;
   text-decoration: none;
+  transition: opacity .7s ease;
 }
 
 .link:hover {
   cursor: url(../../images/cursor-pointer.png), pointer;
+  opacity: .5;
 }
