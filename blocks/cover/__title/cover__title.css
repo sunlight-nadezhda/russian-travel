@@ -4,6 +4,8 @@
   font-size: 72px;
   line-height: 1.05;
   font-weight: 900;
+  z-index: 1;
+  max-width: 560px;
 }
 
 @media (max-width: 800px) {

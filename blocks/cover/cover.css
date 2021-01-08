@@ -7,8 +7,27 @@
   background-repeat: no-repeat;
   min-width: 92%;
   max-width: 1184px;
-  padding-bottom: 62%;
   position: relative;
+  min-height: 740px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.3);
+  z-index: 0;
+}
+
+.cover:hover:after {
+  background: rgba(0,0,0,.8);
 }
 
 @media (max-width: 1280px) {
