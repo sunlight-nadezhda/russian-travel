@@ -1,17 +1,24 @@
 .cover {
+  margin: 0 auto;
   margin-top: 92px;
   background-image: url(../../images/cover__background.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  width: 100%;
+  min-width: 92%;
+  max-width: 1184px;
   padding-bottom: 62%;
   position: relative;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1280px) {
   .cover {
-    left: -5%;
-    width: 110%;
+    min-width: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+  .cover {
+    margin-top: 64px;
   }
 }

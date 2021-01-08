@@ -5,3 +5,10 @@
   line-height: 1.05;
   font-weight: 900;
 }
+
+@media (max-width: 800px) {
+  .cover__title {
+    font-size: 32px;
+    line-height: 1.09;
+  }
+}

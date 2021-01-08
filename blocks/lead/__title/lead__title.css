@@ -6,3 +6,11 @@
   line-height: 1.04;
   font-weight: 900;
 }
+
+@media (max-width: 768px) {
+  .lead__title {
+    max-width: 528px;
+    font-size: 40px;
+    line-height: 1.1;
+  }
+}

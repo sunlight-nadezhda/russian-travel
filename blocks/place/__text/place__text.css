@@ -1,3 +1,10 @@
 .place__text {
   grid-area: paragraph;
 }
+
+@media (max-width: 900px) {
+  .place__text {
+    width: 90%;
+    margin: 0 auto;
+  }
+}

@@ -7,3 +7,12 @@
   line-height: 1.2;
   font-weight: normal;
 }
+
+@media (max-width: 800px) {
+  .cover__subtitle {
+    max-width: 100%;
+    margin-top: 16px;
+    font-size: 14px;
+    line-height: 1.14;
+  }
+}

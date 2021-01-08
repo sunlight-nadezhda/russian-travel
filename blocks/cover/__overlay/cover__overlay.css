@@ -12,3 +12,8 @@
   opacity: .8;
   cursor: url(../../../images/cursor-pointer.png), pointer;
 }
+
+.cover__lead-centered:hover + .cover__overlay {
+  opacity: .8;
+  cursor: url(../../../images/cursor-pointer.png), pointer;
+}
