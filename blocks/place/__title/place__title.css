@@ -6,14 +6,15 @@
   grid-area: title;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1020px) {
   .place__title {
     font-size: 42px;
     line-height: 1.1;
+    max-width: 330px;
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 760px) {
   .place__title {
     width: 90%;
     margin: 0 auto;

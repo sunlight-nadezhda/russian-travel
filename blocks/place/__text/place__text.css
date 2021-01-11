@@ -2,7 +2,7 @@
   grid-area: paragraph;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 760px) {
   .place__text {
     width: 90%;
     margin: 0 auto;

@@ -4,12 +4,12 @@
   font-size: 72px;
   line-height: 1.05;
   font-weight: 900;
-  z-index: 1;
   max-width: 560px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 650px) {
   .cover__title {
+    max-width: 90%;
     font-size: 32px;
     line-height: 1.09;
   }

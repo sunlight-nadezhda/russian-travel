@@ -5,13 +5,12 @@
   font-size: 18px;
   line-height: 1.2;
   font-weight: normal;
-  z-index: 1;
   max-width: 360px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 650px) {
   .cover__subtitle {
-    max-width: 100%;
+    max-width: 90%;
     margin-top: 16px;
     font-size: 14px;
     line-height: 1.14;

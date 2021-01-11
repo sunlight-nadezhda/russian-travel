@@ -5,6 +5,6 @@
 }
 
 .link:hover {
-  cursor: url(../../images/cursor-pointer.png), pointer;
-  opacity: .5;
+  cursor: pointer;
+  opacity: .8;
 }
