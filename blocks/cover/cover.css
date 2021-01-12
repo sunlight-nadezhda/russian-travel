@@ -5,14 +5,15 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  min-width: 92%;
+  /* min-width: 92%; */
   max-width: 1184px;
   /* padding-bottom: 62.5%; */
   position: relative;
-  min-height: 57.8vw;
+  min-height: 46.25em;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /* margin: auto; */
+  /* justify-content: center;
+  align-items: center; */
 }
 
 .cover:before {
@@ -32,14 +33,22 @@
 
 @media (max-width: 1270px) {
   .cover {
-    min-height: 62.5vw;
+    min-height: 40em;
     min-width: 100%;
     max-width: 100%;
   }
 }
 
-@media (max-width: 760px) {
+@media (max-width: 1020px) {
+  .cover {
+    min-height: 30em;
+  }
+}
+
+@media (max-width: 650px) {
   .cover {
     margin-top: 65px;
+    min-height: 12.5em;
+    /* height: minmax(12.5em, 30em); */
   }
 }
