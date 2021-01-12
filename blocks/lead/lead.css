@@ -1,7 +1,7 @@
 .lead {
   margin: 0 auto;
   margin-top: 56px;
-  min-width: 77%;
+  width: 77%;
   max-width: 984px;
 }
 

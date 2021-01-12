@@ -2,6 +2,7 @@
   margin: 0 auto;
   margin-top: 92px;
   width: 77%;
+  max-width: 984px;
   display: grid;
   gap: 80px;
 }

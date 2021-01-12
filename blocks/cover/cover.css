@@ -5,15 +5,10 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  /* min-width: 92%; */
   max-width: 1184px;
-  /* padding-bottom: 62.5%; */
   position: relative;
   min-height: 46.25em;
   display: flex;
-  /* margin: auto; */
-  /* justify-content: center;
-  align-items: center; */
 }
 
 .cover:before {
@@ -49,6 +44,5 @@
   .cover {
     margin-top: 65px;
     min-height: 12.5em;
-    /* height: minmax(12.5em, 30em); */
   }
 }

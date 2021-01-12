@@ -1,32 +1,10 @@
 .cover__link {
   color: #fff;
   text-decoration: none;
-  /* transition: opacity .7s ease; */
   z-index: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
-  /* min-height: 46.25em; */
 }
-
-/* @media (max-width: 1270px) {
-  .cover__link {
-    min-height: 40em;
-  }
-}
-
-@media (max-width: 1020px) {
-  .cover__link {
-    min-height: 30em;
-  }
-}
-
-@media (max-width: 1020px) {
-  .cover__link {
-    min-height: 12.5em;
-    max-height: 30em;
-    height: minmax(12.5em, 30em);
-  }
-} */
